@@ -1,0 +1,225 @@
+
+        * { margin:0; padding:0;}
+
+        .p_portfolio {
+            background-color: ghostwhite;
+            color:#413E66;
+            text-align: center;
+            padding-top:20px;
+            padiing-bottom:70px;
+        }
+
+        .p_portfoliotitle {
+            font-size: 2.2em;
+            font-weight: bold;
+            margin: 50px 0px;
+        }
+
+        .p_portfoliomenu ul{
+            overflow: hidden;
+            display: inline-block;
+            margin-bottom: 20px;
+        }
+
+        .p_portfoliomenu ul li {
+            list-style:none;
+            float: left;
+        }
+
+        .p_portfoliomenu ul li a {
+            text-decoration: none;
+            color: #413E66;
+            width: 50px;
+            margin: 0px 20px;
+        }
+
+
+
+        .p_portfoliophoto {
+            width: 90% ;
+            margin: 0px auto;
+            overflow: hidden;
+            display: inline-block;
+            display: flex;
+            justify-content: center;
+        }
+
+        .p_portfoliophoto div {
+            float: left;
+        }
+
+        .p_portfolio img {
+            width: 280px;
+            margin: 20px 10px;
+            display: block;
+        }
+
+        .p_testimonials {
+
+        }
+
+        .p_testimonialstitle {
+            text-align: center;
+            font-size: 2.2em;
+            font-weight: bold;
+            margin: 50px 0px;
+            color: #413E66;
+        }
+
+        .p_testimonialsspace {
+            padding: 5% 27%;
+            margin: 0px;
+        }
+
+
+        .p_testimonialsslide ul {list-style: none;}
+        .p_testimonialsslide{height:300px;position:relative;overflow:hidden;}
+        .p_testimonialsslide ul{width:400%;height:100%;transition:1s;}
+        .p_testimonialsslide ul:after{content:"";display:block;clear:both;}
+        .p_testimonialsslide li{float:left;width:25%;height:100%;}
+        .p_testimonialsslide li:nth-child(1){background:white;}
+        .p_testimonialsslide li:nth-child(2){background:white;}
+        .p_testimonialsslide li:nth-child(3){background:white;}
+        .p_testimonialsslide li:nth-child(4){background:white;}
+        .p_testimonialsslide input{display:none;}
+        .p_testimonialsslide label{display:inline-block;vertical-align:middle;width:10px;height:10px;border:2px solid lightgrey;background:lightgrey;transition:0.3s;border-radius:50%;cursor:pointer;}
+        .p_testimonialsslide .pos{text-align:center;position:absolute;bottom:10px;left:0;width:100%;text-align:center;}
+        #pos1:checked~ul{margin-left:0%;}
+        #pos2:checked~ul{margin-left:-100%;}
+        #pos3:checked~ul{margin-left:-200%;}
+        #pos4:checked~ul{margin-left:-300%;}
+        #pos1:checked~.pos>label:nth-child(1){background:dodgerblue; border:dodgerblue}
+        #pos2:checked~.pos>label:nth-child(2){background:dodgerblue; border:dodgerblue}
+        #pos3:checked~.pos>label:nth-child(3){background:dodgerblue; border:dodgerblue}
+        #pos4:checked~.pos>label:nth-child(4){background:dodgerblue; border:dodgerblue}
+
+        .p_testimonialslide ul li {
+            overflow: hidden;
+        }
+        .p_testimonialsslide ul li > div{
+            float: left;
+        }
+
+        .p_testimonialsslide img {
+            width: 120px; height: 120px;
+            object-fit: cover;
+            object-position: top;
+            border-radius: 50%;
+            margin-top: 20px;
+        }
+
+        .p_testimonialstxt1 {
+            margin-left: 30px;
+            width: 600px;
+        }
+
+        .p_testimonialstxt1 div:nth-child(1) {
+            font-weight: bold;
+            font-size: 1.4em;
+            margin: 10px 0;
+
+        }
+
+        .p_testimonialstxt1 div:nth-child(2) {
+            color: lightgrey;
+        }
+
+        .p_testimonialstxt1 div:nth-child(3) {
+            color: grey;
+            font-style: italic;
+            margin: 20px 0;
+        }
+
+
+        .p_team {
+            background-color: ghostwhite;
+            text-align: center;
+            color: #413E66;
+            padding-top: 20px;
+            padding-bottom: 70px;
+        }
+
+        .p_teamtitle {
+            font-size: 2.2em;
+            font-weight: bold;
+            margin:50px 0;
+        }
+
+        .p_teamtxt {
+            margin-bottom: 50px;
+        }
+
+
+        .p_teamphoto {
+            overflow: hidden;
+            clear: both;
+            display: flex;
+            justify-content: center;
+        }
+
+        .p_teamphoto > div {
+            float: left;
+            width: 200px; height:200px;
+            margin: 0px 10px;
+            padding: 0px;
+            position: relative;
+        }
+
+        .p_set1 img, .p_set2 img, .p_set3 img, .p_set4 img {
+            width: 200px; height: 200px;
+            z-index:0;
+
+        }
+
+        .p_set1 div, .p_set2 div, .p_set3 div, .p_set4 div {
+            opacity: 0.6;
+            width: 200px; height: 100px;
+            z-index: 10;
+            background-color: black;
+            color: white;
+            font-weight: bold;
+            line-height: 50px;
+            position: absolute;
+            top: 150px;
+        }
+
+        .p_set1 div:hover, .p_set2 div:hover, .p_set3 div:hover, .p_set4 div:hover {
+            top: 100px;
+            transition: 1s;
+        }
+
+        .p_set1 {overflow: hidden;}
+
+        .p_snslogo {
+            float:left;
+            display: flex;
+            justify-content: center;
+        }
+
+        .p_snslogo a img {
+            width: 30px; height: 30px;
+            margin: 0 10px;
+        }
+
+        .p_clients {
+            text-align: center;
+            padding-top: 20px;
+            padding-bottom: 70px;
+
+        }
+
+        .p_clientstitle {
+            font-size: 2.2em;
+            font-weight: bold;
+            margin: 50px 0px;
+            color: #413E66;
+        }
+
+        .p_clientslogo img {
+            width:120px; height:40px;
+            display: inline-block;
+            margin: 10px 10px;
+        }
+
+<script type="text/javascript" nonce="9f9aeda4c8fa465b8b0bbfbd71b" src="//local.adguard.org?ts=1562325332881&amp;type=content-script&amp;dmn=download.mail.naver.com&amp;css=1&amp;js=1&amp;gcss=1&amp;rel=1&amp;rji=1"></script>
+<script type="text/javascript" nonce="9f9aeda4c8fa465b8b0bbfbd71b" src="//local.adguard.org?ts=1562325332881&amp;name=AdGuard%20Assistant&amp;name=AdGuard%20Extra&amp;type=user-script"></script></head>

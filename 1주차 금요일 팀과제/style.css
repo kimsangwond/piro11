@@ -1,0 +1,205 @@
+*{
+	text-align: center;
+	padding:0 0;
+	margin:0 0;
+	color:#112a6f;
+}
+
+a{text-decoration: none;}
+
+/*nav bar start*/
+.h_topbar{
+	width:100%;
+	height:85px;
+	position:fixed;
+	z-index:999;
+	background-color: #fff;
+}
+#h_home{
+	color:#3fb3bc;
+}
+.h_topbar .h_social-links{
+	float:right;
+	margin-right:100px;
+	margin-top: 10px;
+	height:30px;
+	width:120px;
+	display:inline-block;
+}
+.h_topbar .h_name{
+	margin-top:20px;
+	width:300px;
+	font-size: 1.3em;
+	font-color:#0000ee;
+	display:inline-block;
+	float:left;
+	/*background-color: #aaa;*/
+}
+.h_topbar .h_nav{
+	width:600px; height:50px;
+	display:inline-block;
+	float:right;
+	left:-150px;
+	/*background-color: #bbb;*/
+	margin-top:25px;
+	margin-left:50px;
+	position:relative;
+}
+.h_topbar .h_nav li{
+	width:100px;
+	height:50px;
+	display:inline-block;
+	float:left;
+}
+
+.h_topbar .h_nav nav ul .h_dropbtn .h_dropdown-content{
+	width:100px;height:200px;
+	display:none;
+}
+
+.h_dropbtn2 .h_dropdown-content2{
+	width:100px;height:150px;
+	display:none;
+}
+
+.h_topbar .h_nav nav ul .h_dropbtn:hover .h_dropdown-content{
+	width:100px;height:200px;
+	display:block;
+	background-color:#fff;
+	margin-top:20px;
+}
+
+.h_dropbtn2:hover .h_dropdown-content2{
+	position:relative;
+	right:-100px;
+	top:-25px;
+	width:100px;height:150px;
+	display:block;
+	background-color:#fff;
+}
+
+
+
+
+
+
+/*nav bar end*/
+
+/*d1 start*/
+.h_d1 {
+	padding-top:400px;
+	display:block;
+	position: relative;
+	width:100vw; height: 100vh;
+	background: url(https://i1.wp.com/thesagonline.com/wp-content/uploads/2011/09/light-blue-background.jpeg?ssl=1);
+	/*background-size: cover;*/
+	/*background-color: #aaeeaa;*/
+}
+.h_d1 .h_d1-1{
+	margin-left:75px;
+	/*background-color:#dfd;*/
+	width:40vw;height:500px;
+	display:inline-block;
+	float:left;
+	font-size: 1.5em;
+}
+.h_d1 .h_d1-1 .h_light{
+	color:#3fb3bc;
+}
+.h_d1 .h_pic{
+	margin-right:100px;
+	display:inline-block;
+	position:relative;
+	width:400px;height:400px;
+	float:right;
+	background: url('https://bootstrapmade.com/demo/themes/Rapid/img/intro-img.svg');
+	background-size: cover;
+	/*margin-right:10vw;*/
+
+
+}
+.h_d1 .h_text{
+	display:block;
+	width:40vw; height:180px;
+	/*background-color:#7f7;*/
+	/*padding-right:100px;*/
+}
+.h_d1 .h_text h1{
+	display:inline-block;
+	float:left;
+
+}
+.h_d1 .h_get_started{
+	display: block;
+	width: 130px; height: 40px;
+	/*margin: 0 auto;*/
+	/*background-color:#afa;*/
+	text-align:center;
+	padding-top:5px;
+
+}
+
+
+/*d1 end*/
+
+/*d2 start*/
+.h_d2 {
+	position: relative;
+	display:block;
+	width:100vw;height:70vh;
+	background-size: cover;
+	background-color: #fff;
+	padding-top:200px;
+}
+.h_d2-1{
+	float:left;
+	width:25vw;height:40vh;
+	background-color: #aaa;
+	margin-left: 15vw;
+}
+.h_d2-1 img{
+	max-width: 100%; max-height: 100%;
+}
+.h_d2-2{
+	margin-right:100px;
+	float:right;
+	display:block;
+	width:40vw;height:70vh;
+}
+.h_d2-2 h1,h2,h3{
+	text-align: left;
+}
+.h_d2-2 h1{
+	font-weight: bold;
+}
+.h_d2-2 h2{
+	font-style: italic;
+	font-size:1.6em;
+}
+.h_d2-2 h3{
+	font-size:1.2em;
+	color:#222;
+	line-height:1.2em;
+}
+/*d2 end*/
+
+.h_get_started{
+	background-color:#3fb3bc;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

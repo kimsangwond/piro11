@@ -1,0 +1,237 @@
+* {
+    list-style: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+div {
+}
+
+h2{
+    line-height:60px;
+    font-size:30px
+}
+
+h3{
+    line-height:40px;
+    font-size:19px
+}
+
+/* plan */
+
+.j_4{
+    overflow: hidden;
+}
+
+.j_4_pricing {
+    text-align: center;
+    background-color: #f5f8fd;
+    overflow: hidden;
+}
+
+.j_4_pricing > h2 {
+    margin:30px auto;
+    text-align: center;
+}
+
+.j_4_pricing > p {
+    margin:20px auto;
+}
+
+.whole {
+    margin:30px auto;
+    display: inline-block;
+}
+
+.whole div {
+    box-shadow: 3px 3px 8px 3px #999999;
+    height:400px;
+    width:300px;
+    margin: 20px 30px;
+    float: left;
+}
+
+.bas span:nth-child(1), .reg span:nth-child(1), .pre span:nth-child(1) {
+    font-size:3em;
+    margin:50px auto;
+}
+
+.bas p:nth-child(3), .reg p:nth-child(3), .pre p:nth-child(3) {
+    font-size:1.4em;
+    margin:20px auto;
+}
+
+.bas p:nth-child(4), .reg p:nth-child(4), .pre p:nth-child(4) {
+    line-height:30px;
+}
+
+.bas p:nth-child(5), .reg p:nth-child(5), .pre p:nth-child(5) {
+    width:120px; height: 40px;
+    color: #ffffff;
+    font-size:11px;
+    border-radius:10px;
+    text-align: center; line-height:40px;
+    background-color: #1bb1dc;
+    margin:40px auto;
+}
+
+/* question */
+
+hr{
+    width:800px;
+    margin: 10px auto;
+}
+
+.question {
+    text-align: center;
+}
+
+.question h2 {
+    margin-top:19px;
+    text-align: center;
+}
+
+.list {
+    line-height: 40px;
+    margin: 60px auto;
+    width:800px;
+    text-align: center;
+}
+
+.question p:nth-child(2) {
+    margin-bottom:20px;
+}
+
+.list p{
+    text-align: left;
+}
+
+.list span{
+    text-align: right;
+}
+
+/* section */
+
+.wrap{
+    text-align: center;
+    background-color: #f5f8fd;
+    overflow:hidden;
+}
+
+.wrap div{
+    margin:0 auto;
+    text-align:left;
+}
+
+.section{
+    display:inline-block;
+}
+.section1{
+    width:270px;
+    margin:30px auto;
+    display:inline-block;
+}
+.section1 div{
+    width:270px;
+}
+
+.forming form{
+    height:40px;
+    text-align: left;
+}
+
+.note p,.news p{
+    text-align: left;
+    font-size:12px;
+}
+
+.section2{
+    width:300px;
+    display:inline-block;
+    overflow:hidden;
+}
+
+.section2 div{
+    width:300px;
+}
+
+.linkinfo ul li{
+    text-align: left;
+    line-height: 26px;
+    font-size:12px;
+}
+
+
+.contact ul li {
+    text-align: left;
+    font-size:12px;
+    line-height:16px;
+}
+
+.contact h3{
+    line-height:50px;
+    font-size:20px
+}
+
+
+.dirlink ul li {
+    float:left;
+    width:20px; height:20px;
+    border-radius: 50px;
+    margin: 12px 15px;
+    background-color: #1bb1dc;
+}
+/*message*/
+
+.message{
+    padding: 0px 30px;
+    margin:0px 60px;
+    width:400px;
+    display:inline-block;
+}
+
+.message p{
+    text-align: left;
+    font-size:12px;
+}
+
+.message input{
+    text-align: left;
+    width:380px;
+    height:26px;
+    margin:6px auto;
+}
+
+.message textarea{
+    text-align: left;
+    width:380px;
+    height:120px;
+}
+
+input[type=submit]{
+    border:none;
+
+    background-color: #1bb1dc;
+    color:#ffffff;
+    border-radius:5px;
+}
+
+.section1 input[type=submit] {
+    width:60px;
+    height:20px;
+}
+.message input[type=submit]{
+    margin:10px 130px;
+    width:110px;
+    height:30px;
+}
+
+.footer{
+    text-align: center;
+    margin: 30px;
+}
+
+
+
+
